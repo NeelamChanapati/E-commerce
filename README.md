@@ -1,1 +1,1 @@
-# Lifestyle_Store
+# Internshala LifestyleStore website Bootstrap assignment. 
