@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LifestyleStore login</title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <style>
+            footer{
+                 position: relative;
+            }
+            @media(max-width:991px){
+                footer{
+                    margin-top: 650px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+       <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Lifestyle Store</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="SignUp.html"><span class="glyphicon glyphicon-user" id="user"></span>Sign Up</a></li>
+                    <li><a href="Login.html"><span class="glyphicon glyphicon-log-in" id="login"></span>Login</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container panelstyle">
+            <div class="row row-style">
+               <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4>LOGIN</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Login to make purchase</p>
+                        </div>
+                        <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="Email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                             <input type="text" class="form-control" name="Password" placeholder="Password">
+                        </div>
+                         <div class="login">
+                        <button class="btn btn-primary">Login</button>
+                         </div>
+                        </form>
+                        <div class="panel-footer">
+                            Dont have an account?<a href="SignUp.html">Regsiter</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+    <div class="container">
+        <center>
+            Copyright © Lifestyle Store. All Rights  Reserved | Contact Us: +91 90000 00000 
+        </center>
+    </div>
+        </footer>
+    </body>
+</html>
